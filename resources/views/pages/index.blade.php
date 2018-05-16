@@ -14,8 +14,8 @@
      
         <h1 class="jumbotron-heading">Index (Home) Page</h1>
         <h3 class="jumbotron-headingd"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sapiente voluptatibus sed hic commodi repellendus dolorem soluta sint. Maxime ratione voluptatum voluptate nemo vitae minima magni tenetur aliquam illum sint cum rem, accusamus voluptates ea quod molestias enim numquam aut adipisci possimus quia porro necessitatibus. Fugit aliquam culpa exercitationem placeat.</h3>
-          <a href="#" class="btn btn-lg btn-primary my-2">About</a>
-          <a href="#" class="btn btn-lg btn-secondary my-2">Contact</a>
+          <a href="/about" class="btn btn-lg btn-primary my-2">About</a>
+          <a href="/contact" class="btn btn-lg btn-secondary my-2">Contact</a>
 
     </section>
 
