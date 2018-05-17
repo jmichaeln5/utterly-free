@@ -18,9 +18,9 @@
         <div class="form-group">
           <label for="exampleFormControlSelect1">How Can We Help You?</label>
           <select class="form-control" id="exampleFormControlSelect1">
-            <option>I have a question</option>
-            <option>I have a compliment</option>
-            <option>I have a suggestion</option>
+            <option>I have a question.</option>
+            <option>I have a compliment.</option>
+            <option>I have a suggestion.</option>
           </select>
         </div>
 
