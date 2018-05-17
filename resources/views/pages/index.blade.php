@@ -19,7 +19,7 @@
           <a href="/about" class="btn btn-primary my-2">About</a>
           <a href="/contact" class="btn btn-secondary my-2">Contact</a>
         </div>
-        
+
     </section>
 
     <div class="album py-5 bg-light">
@@ -102,40 +102,6 @@
             </div>
           </div>
 
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="https://images.pexels.com/photos/675439/pexels-photo-675439.jpeg?" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eos odit modi possimus, reprehenderit quod molestias? Ad eligendi consectetur, omnis sapiente illum consequatur ducimus sed ex voluptates, ullam delectus facilis id autem corporis maiores dolorem.</p>
-
-                    <button type="button" class="btn btn-block btn-outline-secondary">Learn More</button>
-                    {{-- <button type="button" class="btn btn-block btn-outline-secondary">Edit</button> --}}
-
-                </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="https://images.pexels.com/photos/675439/pexels-photo-675439.jpeg?" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eos odit modi possimus, reprehenderit quod molestias? Ad eligendi consectetur, omnis sapiente illum consequatur ducimus sed ex voluptates, ullam delectus facilis id autem corporis maiores dolorem.</p>
-
-                    <button type="button" class="btn btn-block btn-outline-secondary">Learn More</button>
-                    {{-- <button type="button" class="btn btn-block btn-outline-secondary">Edit</button> --}}
-
-                </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="https://images.pexels.com/photos/675439/pexels-photo-675439.jpeg?" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eos odit modi possimus, reprehenderit quod molestias? Ad eligendi consectetur, omnis sapiente illum consequatur ducimus sed ex voluptates, ullam delectus facilis id autem corporis maiores dolorem.</p>
-
-                    <button type="button" class="btn btn-block btn-outline-secondary">Learn More</button>
-                    {{-- <button type="button" class="btn btn-block btn-outline-secondary">Edit</button> --}}
-
-                </div>
             </div>
           </div>
         </div>
