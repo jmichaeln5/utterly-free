@@ -20,7 +20,7 @@
           <select class="form-control" id="exampleFormControlSelect1">
             <option>I have a question</option>
             <option>I have a compliment</option>
-            <option>I have a complaint</option>
+            <option>I have a suggestion</option>
           </select>
         </div>
 
