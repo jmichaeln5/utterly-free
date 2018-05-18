@@ -17,6 +17,7 @@
           </ul>
 
           <div class="navbar-nav form-inline mt-2 mt-md-0">
+              <a class="nav-link nav-item" href="/posts">Posts</a>
               <a class="nav-link nav-item" href="/about">About</a>
               <a class="nav-link nav-item" href="/contact">Contact</a>
           </div>
