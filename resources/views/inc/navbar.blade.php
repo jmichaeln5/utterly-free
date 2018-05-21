@@ -46,7 +46,7 @@
       <nav class="navbar navbar-expand-md navbar-light navbar-laravel  fixed-top">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-                {{ config('app.name', 'Laravel') }}
+                {{ config('app.name', 'Utterly Free') }}
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,12 +65,11 @@
                         <li><a class="nav-link nav-item" href="/posts">Flavors</a></li>
                         <li><a class="nav-link nav-item" href="/about">About</a></li>
                         <li><a class="nav-link nav-item" href="/contact">Contact</a></li>
-                        <li><a class="nav-link" href="{{ route('login') }}">{{ __('|') }}</a></li>
                         <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                         <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                     
                         @else
-                        
+
                         <li><a class="nav-link nav-item" href="/posts">Flavors</a></li>
                         <li><a class="nav-link nav-item" href="/about">About</a></li>
                         <li><a class="nav-link nav-item" href="/contact">Contact</a></li>
