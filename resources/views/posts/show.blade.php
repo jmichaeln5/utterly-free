@@ -2,8 +2,6 @@
 
 @section('content')
 
-<div class="container pt-5">
-
     <h1>Post@show</h1>
 
         <div class="well">
@@ -12,7 +10,11 @@
         </div>
 
         <hr>
-    <a href="/posts/{{$post->id}}/edit" class="btn btn-default">Edit</a>
-</div>
+    <a href="/posts/{{$post->id}}/edit" class="btn btn-outline btn-default">Edit</a>
+
+    {!! Form::open(['action'=> ['PostsController@destroy', $post->id], 'method' => 'POST'] )!!}
+    {{Form::hidden('_method', 'DELETE')}}
+    {{Form::submit('Delete', ['class'=> 'btn btn-danger'])}}
+    {!! Form::close() !!}
 
 @endsection

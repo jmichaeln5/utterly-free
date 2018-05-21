@@ -2,8 +2,6 @@
 
 @section('content')
 
-<div class="container pt-5">
-
 <h1>Posts</h1>
 
         @if(count($posts) > 0)
@@ -19,6 +17,5 @@
         @else
             <h1 class="text-center pt-5">No Posts Found.</h1>
         @endif
-</div>
 
 @endsection

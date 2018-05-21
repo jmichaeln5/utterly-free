@@ -2,8 +2,8 @@
 
 @section('content')
 
-<div class="container pt-5">
 <h1>Edit Post</h1>
+
 {!! Form::open(['action'=> ['PostsController@update', $post->id], 'method'=>'POST']) !!}
 
     <div class="form-group">
@@ -18,6 +18,6 @@
     {{Form::hidden('_method','PUT')}}
     {!! Form::submit('Add Flavor', ['class'=>'btn btn-primary btn-block']) !!}
 {!! Form::close() !!}
-</div>
+
 
 @endsection
