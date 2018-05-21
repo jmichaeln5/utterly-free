@@ -8,7 +8,7 @@
 
     <div class="well">
         <h3>{{$post->flavor}}</h3>
-        <h5>{{$post->description}}</h5>
+        <h5>{!!$post->description!!}</h5>
     </div>
 
 </div>

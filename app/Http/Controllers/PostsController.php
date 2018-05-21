@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use DB;
 
 class PostsController extends Controller
 {
@@ -14,7 +15,7 @@ class PostsController extends Controller
      */
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::orderBy('created_at', 'description')->paginate(6);
         return view('posts/index')->with('posts', $posts);
     }
 
@@ -25,7 +26,7 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        return view('posts/create');
     }
 
     /**
@@ -36,8 +37,19 @@ class PostsController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
+        $this->validate($request, [
+            'flavor'=>'required',
+            'description'=>'required'
+        ]);
+
+            //Create Posts
+            $post = new Post;
+            $post->flavor = $request->input('flavor');
+            $post->description = $request->input('description');
+            $post->save();
+
+            return redirect('/posts')->with('success', 'Post Created');
+        }
 
     /**
      * Display the specified resource.

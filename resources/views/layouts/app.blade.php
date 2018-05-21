@@ -14,8 +14,13 @@
 
     <body class="pt-5">
         @include('inc/navbar')
-
+        @include('inc/messages')
             @yield('content')
+
+            <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+            <script>
+                CKEDITOR.replace( 'article-ckeditor' );
+            </script>
 
     </body>
 </html>
