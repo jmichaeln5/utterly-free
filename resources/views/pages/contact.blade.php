@@ -2,8 +2,8 @@
 
 
 @section('content')
+<div class="container py-5">
 
-<div class="container py-5 bg-light">
 <h1 class="text-center">Contact</h1>
 
 <form>
@@ -32,5 +32,6 @@
 
 
     <button type="button" class="btn btn-lg btn-block btn-primary">Submit</button>
+  
 </div>
 @endsection

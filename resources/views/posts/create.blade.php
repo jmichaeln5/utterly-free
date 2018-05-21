@@ -2,7 +2,6 @@
 
 @section('content')
 
-<div class="container pt-5">
 <h1>Create Post</h1>
 {!! Form::open(['action'=> 'PostsController@store', 'method'=>'POST']) !!}
 
@@ -17,6 +16,5 @@
     </div>
     {!! Form::submit('Add Flavor', ['class'=>'btn btn-primary btn-block']) !!}
 {!! Form::close() !!}
-</div>
 
 @endsection

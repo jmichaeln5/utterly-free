@@ -1,6 +1,7 @@
 @extends('layouts/app')
 
 @section('content')
+<div class="container py-5">
 
 <h1>Edit Post</h1>
 
@@ -19,5 +20,5 @@
     {!! Form::submit('Add Flavor', ['class'=>'btn btn-primary btn-block']) !!}
 {!! Form::close() !!}
 
-
+</div>
 @endsection

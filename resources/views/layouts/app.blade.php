@@ -24,14 +24,12 @@
 <body>
     <div id="app">
 
-        @include('inc/navbar')
 
-        <div class="container py-5">
             <main class="py-5">
+                @include('inc/navbar')
                 @include('inc/messages')
                 @yield('content')
             </main>
-        </div>
     </div>
 
     <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>

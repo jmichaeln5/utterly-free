@@ -1,6 +1,9 @@
+
 @extends('layouts/app')
 
+
 @section('content')
+<div class="container py-5">
 
     <h1>Post@show</h1>
 
@@ -10,11 +13,6 @@
         </div>
 
         <hr>
-    <a href="/posts/{{$post->id}}/edit" class="btn btn-outline btn-default">Edit</a>
 
-    {!! Form::open(['action'=> ['PostsController@destroy', $post->id], 'method' => 'POST'] )!!}
-    {{Form::hidden('_method', 'DELETE')}}
-    {{Form::submit('Delete', ['class'=> 'btn btn-danger'])}}
-    {!! Form::close() !!}
-
+</div>
 @endsection
