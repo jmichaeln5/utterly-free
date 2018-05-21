@@ -46,6 +46,7 @@ class PostsController extends Controller
             $post = new Post;
             $post->flavor = $request->input('flavor');
             $post->description = $request->input('description');
+            $post->user_id = auth()->user()->id;
             $post->save();
 
             return redirect('/posts')->with('success', 'Post Created');
