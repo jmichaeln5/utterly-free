@@ -6,10 +6,11 @@
 
         @if(count($posts) > 0)
             @foreach($posts as $post)
-                <div class="well">
-                <h3> <a href="/posts/{{$post->id}}">{{$post->flavor}}</a></h3>
-                <h5>{!!$post->description!!}</h5>
-                </div>
+            <div class="card">
+                    <div class="card-body"> <a href="/posts/{{$post->id}}">{{$post->flavor}}</a></div>
+                    <div class="card-footer"><a href="/posts/{{$post->id}}">{{$post->flavor}}</a></h3>
+                    <h5>{!!$post->description!!} </div> 
+            </div>
             @endforeach
             
             {{$posts->links()}}
@@ -19,3 +20,9 @@
         @endif
 </div>
 @endsection
+
+{{-- <div class="card">
+        <div class="card-header"> <a href="/posts/{{$post->id}}">{{$post->flavor}}</a></div>
+        <div class="card-body"><a href="/posts/{{$post->id}}">{{$post->flavor}}</a></h3>
+        <h5>{!!$post->description!!} </div> 
+</div> --}}
