@@ -2,15 +2,15 @@
 
 @section('content')
 <div class="container py-5">
-<h1>Posts</h1>
+<h1>Flavors</h1>
 
         @if(count($posts) > 0)
             @foreach($posts as $post)
             <div class="card">
-                    <div class="card-body"> <a href="/posts/{{$post->id}}">{{$post->flavor}}</a></div>
-                    <div class="card-footer"><a href="/posts/{{$post->id}}">{{$post->flavor}}</a></h3>
-                    <h5>{!!$post->description!!} </div> 
+                    <h4 class="card-body"> <a href="/posts/{{$post->id}}">{{$post->flavor}}</a></h4>
+                    <h5 class="card-footer">{!!$post->description!!} </h5>
             </div>
+            <br>
             @endforeach
             
             {{$posts->links()}}

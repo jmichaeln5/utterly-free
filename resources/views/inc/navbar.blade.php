@@ -62,7 +62,7 @@
                 <ul class="navbar-nav ml-auto">
                     <!-- Authentication Links -->
                     @guest
-                        <li><a class="nav-link nav-item" href="/posts">Posts</a></li>
+                        <li><a class="nav-link nav-item" href="/posts">Flavors</a></li>
                         <li><a class="nav-link nav-item" href="/about">About</a></li>
                         <li><a class="nav-link nav-item" href="/contact">Contact</a></li>
                         <li><a class="nav-link" href="{{ route('login') }}">{{ __('|') }}</a></li>
@@ -70,7 +70,7 @@
                         <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         
                         @else
-                        <li><a class="nav-link nav-item" href="/posts">Posts</a></li>
+                        <li><a class="nav-link nav-item" href="/posts">Flavors</a></li>
                         <li><a class="nav-link nav-item" href="/about">About</a></li>
                         <li><a class="nav-link nav-item" href="/contact">Contact</a></li>
                         
